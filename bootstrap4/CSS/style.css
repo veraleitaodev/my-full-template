@@ -17,9 +17,34 @@ body {
     justify-content: center;
 }
 
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba (0,0,0,0.5);
+}
+
 .quotes-container {}
 
 .features-container {}
+
+/*Block ddividers*/
+
+.block-divider {
+    width: 75px;
+    height: 5px;
+    border: 0;
+}
+
+.block-divider--orange {
+        background-color: #f05f40;
+}
+
+.block-divider--short {
+    width: 35px;
+}
 
 /*Jumbotron*/
 
@@ -30,6 +55,11 @@ body {
    color: white;
    font-weight: bold;
    margin-bottom: 30px; 
+}
+
+.jumbotron .lead {
+    margin: 25px 0;
+    color: #a7a7a7;
 }
 
 .jumbotron small  {
